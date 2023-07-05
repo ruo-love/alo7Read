@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "Alo7伴读"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#25A5F7",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconWidth": "40px",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "伴读",
+				"iconPath": "/static/images/ic_class_normal@2x.png",
+				"selectedIconPath": "/static/images/ic_class_hover@2x.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "/static/images/ic_user_normal@2x.png",
+				"selectedIconPath": "static/images/ic_user_hover@2x.png"
+			}
+		]
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"a7-(.*)": "/components/a7-$1/index.vue"
+		}
+	}
+}

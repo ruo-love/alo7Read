@@ -1,0 +1,28 @@
+page {
+	font-family: ‘Times New Roman’, Times, serif !important;
+}
+
+.icon-30 {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-56 {
+	width: 56px;
+	height: 56px;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-shadow {
+	margin: 16px;
+	padding: 16px;
+	color: #282c35;
+	box-shadow: 0px 2px -1px #ccc;
+	border-radius: 8px;
+	background-color: #fff;
+}
